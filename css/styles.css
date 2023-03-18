@@ -19,8 +19,6 @@ body {
 }
 
 .section-title {
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--item-text-color);
@@ -37,7 +35,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -73,7 +70,6 @@ body {
 }
 
 .contacts a {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
@@ -92,8 +88,6 @@ body {
 
 .hero-title {
   color: var(--white);
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -113,9 +107,13 @@ body {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--button-color-ocean);
+}
+
 /* Sections */
 .list-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,6 +126,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/* Sections Team */
+.team {
+  background-color: var(--logo-color-cloud);
+}
+
+.team-list-item {
+  background-color: var(--white);
+}
 
 /* Page Portfolio */
 .btn-filter {
@@ -135,7 +141,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
@@ -167,4 +173,7 @@ body {
 
 .footer-text {
   color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
