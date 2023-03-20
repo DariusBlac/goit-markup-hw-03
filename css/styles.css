@@ -264,10 +264,14 @@ img {
   padding-right: 16px;
 }
 /* -----------------------------Page Portfolio---------------------------- */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filters-list {
   display: flex;
   justify-content: center;
-  margin-top: 96px;
 }
 
 .filters-list .item + .item {
@@ -300,7 +304,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: 72px;
-  padding-bottom: 120px;
 }
 
 .portfolio-card {
